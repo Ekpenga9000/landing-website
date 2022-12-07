@@ -1,0 +1,35 @@
+
+.description-container h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    order: 0;
+    flex-grow: 1;
+}
+
+.description-container p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+color: #4B5565;
+order: 1;
+align-self: stretch;
+}
+
+@media screen and (max-width:1024px){
+    .description-container {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .description-container img{
+        max-width: 80%;
+    }
+
+  }

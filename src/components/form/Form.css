@@ -1,0 +1,264 @@
+.form-container {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.contact-information-container {
+    background: #09063c;
+    color: #fff;
+    width: 405px;
+    padding: 2.5em;
+}
+
+.contact-information-p{
+    margin-block: 1.3em;
+}
+
+.input-super-container {
+    display: flex;
+    gap: 1.8em;
+    margin-top: 1em;
+}
+
+.social-media-container {
+    display: flex;
+}
+
+.social-media {
+    margin-inline: 1em;
+}
+
+.contact-information {
+    display: flex;
+    margin-block: 1.3em;
+}
+
+.contact-information-item {
+    margin-inline: 0.5em;
+}
+
+/* Input fields */
+
+.input-super-container label {
+    /* Label */
+
+    width: 70px;
+    height: 20px;
+
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #101828;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.input-super-container input {
+    /* Form Fields/Text input */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 17px;
+
+    width: 342px;
+    height: 50px;
+
+    /* white */
+
+    background: #ffffff;
+    /* gray/300 */
+
+    border: 1px solid #d1d5db;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input-super-container p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.phone-input-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-input-field{
+    margin-top: 1em;
+}
+
+.subject-input-field input[type="text"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 17px;
+
+    width: 715px;
+    height: 50px;
+    background: #ffffff;
+
+    border: 1px solid #d1d5db;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.subject-input-field label {
+    width: 53px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #374151;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.message-input-field{
+    margin-top: 1em;
+}
+
+.message-input-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-input-field label {
+    /* Label */
+
+    width: 61px;
+    height: 20px;
+
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #101828;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.message-input-field p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.message-input-field textarea {
+    /* Form Fields/Textarea input */
+
+    box-sizing: border-box;
+
+    width: 715px;
+    height: 122px;
+    padding: 0.5em;
+    /* white */
+
+    background: #ffffff;
+    /* gray/300 */
+
+    border: 1px solid #d1d5db;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    /* align-self: stretch; */
+    flex-grow: 0;
+}
+
+.btn-container{
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-form1-container{
+    padding: 1.2em 2em;
+}
+
+@media screen and (max-width:1024px){
+    .form-container {
+        display: block;
+    }
+    
+    .contact-information-container{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .input-super-container{
+        display: block;
+        /* width: 70%; */
+    }
+
+    .input-super-container input{
+        width: 90%;
+    }
+
+    .subject-input-field input[type="text"] {   
+        width: 90%;
+    }
+
+    .message-input-field textarea {
+        /* Form Fields/Textarea input */
+        width: 90%;
+    }
+    
+    .btn-container{
+        width: 90%;
+    }
+
+    .phone-input-header{
+        width: 90%;
+    }
+
+    .message-input-header{
+        width: 90%;
+    }
+    
+  }

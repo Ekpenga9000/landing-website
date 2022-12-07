@@ -1,0 +1,26 @@
+.section3-container{
+    margin-block: 5em;
+    display: flex;
+    gap: 1em;
+}
+
+.details-container{
+    display: flex;
+    gap: 1em;
+}
+
+@media screen and (max-width:1024px){
+    .section3-container {
+        display: block;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .details-container{
+        display: block;
+        margin-block: 1em;
+        text-align: center;
+    }
+
+
+  }

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.footerItems-container ul li{
+    list-style-type: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #E4E7EC;
+margin-block: .5em;
+
+}
+
+.footerItems-container p{
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #98A2B3;
+}
+
+@media screen and (max-width:1024px){
+    .footerItems-container p{
+       margin-top: 1.5em;
+    }
+  
+  }

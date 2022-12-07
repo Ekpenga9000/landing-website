@@ -1,0 +1,42 @@
+.header{
+    background: #09063C;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
+.footer-cover{
+    background: #292838;
+}
+
+.main-form-container{
+    display: flex;
+    justify-content: center;
+    padding-block: 2em;
+    margin-block: 3em;
+}
+
+.hero-main{
+    margin-top: 1em;
+    width: 1216px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.main-sub-container{
+    width: 1216px;
+}
+
+.main2-container{
+    display: flex;
+    justify-content: center;
+}

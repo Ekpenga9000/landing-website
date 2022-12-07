@@ -1,0 +1,28 @@
+.head-content{
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+
+.head-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    order: 0;
+    align-self: stretch;
+}
+
+.head-content p{
+    margin-block: 1em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
