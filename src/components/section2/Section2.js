@@ -16,7 +16,7 @@ const Section2 = ({headerText, body1, body2, btnTitle, ImgLinks=[]}) => {
                   ImgLinks.map((img, index) => (
                     <div className='img-container'>
                         <img src={img} alt={ `number ${index}` } />
-                    </div>  
+                    </div>
                   ))
               }
           </div>
